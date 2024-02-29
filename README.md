@@ -27,7 +27,8 @@ composer install
 npm install
 ```
 
-3. Append the following variables to your `.env` file and define them
+3. Append the following variables to your `.env` file and define them, ensuring the password is at least 8 
+   characters long
 ```dotenv
 LIVEWIRE_BLOG_CMS_ADMIN_USERNAME=
 LIVEWIRE_BLOG_CMS_ADMIN_PASSWORD=
